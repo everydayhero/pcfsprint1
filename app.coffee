@@ -19,14 +19,20 @@ sketch.home.x = scrollHome.x
 sketch.home
 sketch.home.parent = scrollHome.content
 
-sketch.form.y = Screen.y
-sketch.form.x = Screen.x + sketch.header.height
-#sketch.form.placeBefore(scrollHome)
+# Reset positions
+
+sketch.form.y = Screen.height
+sketch.form.x = 0
+sketch.form.placeBefore(scrollHome)
+
+sketch.actionBar.x = 0
+sketch.actionBar.y = Screen.height
 
 sketch.personalCauseButton.on(Events.Click, (event, layer) ->
-	#sketch.form.visible = true
-	#sketch.form.y = Screen.y + sketch.header.height
-	#scrollHome.visible = false
-	sketch.form.bringToFront()
+	sketch.form.visible = true
+	sketch.form.y = sketch.header.height
+	scrollHome.visible = false
+	sketch.amountContent.visible = true
+	sketch.actionBar.y = Screen.height - sketch.actionBar.height
 )
 

@@ -935,6 +935,33 @@ window.__imported__["Refactor@2x/layers.json.js"] = [
 				"height": 54
 			}
 		},
-		"children": []
+		"children": [
+			{
+				"objectId": "2742105A-8F02-4106-B738-1F062E245E08",
+				"kind": "group",
+				"name": "headerLogo",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 16,
+					"y": 13,
+					"width": 41,
+					"height": 29
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-headerLogo-mjc0mjew.png",
+					"frame": {
+						"x": 16,
+						"y": 13,
+						"width": 41,
+						"height": 29
+					}
+				},
+				"children": []
+			}
+		]
 	}
 ]
